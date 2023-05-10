@@ -73,6 +73,10 @@ a:hover {
   padding-left: 0px;
 }
 
+.list-centered {
+  list-style-type: none;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
