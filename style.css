@@ -18,8 +18,8 @@ h2, h3 {
     font-size: 20px;
 }
 
-button, input[type="reset"] {
-	background: #BDCDD6;
+.button-blue, input[type="reset"] {
+	background: #93BFCF;
 	border: 2px solid #537188;
   border-radius: 10px;
 	padding: 4px;
