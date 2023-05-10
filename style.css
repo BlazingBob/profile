@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;1,700&display=swap');
+
+body {
+  font-family: Space Mono;
+  font-size: 16px;
+  background-color: #EEE9DA;
+  padding: 25px;
+  text-align: center;
+}
+
+h1 {
+  font-family: Space grotesk;
+  font-size: 25px;
+}
+
+h2, h3 {
+    font-family: Space grotesk;
+    font-size: 20px;
+}
+
+button, input[type="reset"] {
+	background: #BDCDD6;
+	border: 2px solid #537188;
+  border-radius: 10px;
+	padding: 4px;
+	font: inherit;
+	cursor: pointer;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+a {
+  color: #AEE2FF;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #93BFCF;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #537188;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.card-blue {
+  background-color: #6096B4;
+  padding: 15px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #BDCDD6;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2)
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
