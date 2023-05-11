@@ -23,7 +23,7 @@ h2, h3 {
 	background-color: #93BFCF;
 	border: 2px solid #537188;
   border-radius: 10px;
-	padding: 4px;
+  padding: 5px 10px;
 	font: inherit;
 	cursor: pointer;
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
