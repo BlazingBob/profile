@@ -18,7 +18,8 @@ h2, h3 {
     font-size: 20px;
 }
 
-#btn-blue {
+.btn-blue {
+  display: inline-block;
 	background-color: #93BFCF;
 	border: 2px solid #537188;
   border-radius: 10px;
@@ -36,7 +37,7 @@ a {
   transition: 0.3s ease;
 }
 
-a:hover {
+li a:hover {
   color: #93BFCF;
 }
 
