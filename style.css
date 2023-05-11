@@ -29,16 +29,16 @@ h2, h3 {
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 
-a {
-  color: #AEE2FF;
+ul a {
+  color: #6096B4;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
   transition: 0.3s ease;
 }
 
-li a:hover {
-  color: #93BFCF;
+ul a:hover {
+  color: #43697e;;
 }
 
 #profile-pic {
@@ -46,16 +46,16 @@ li a:hover {
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid #537188;
+  border: 2px solid #5999b0;
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 
 .card-blue {
-  background-color: #6096B4;
+  background-color: #93BFCF;
   padding: 15px;
   margin: 25px auto;
   border-radius: 5px;
-  border: 1px solid #BDCDD6;
+  border: 1px solid #d0dfe7;
   box-shadow: 0 0 5px rgba(0,0,0,0.2)
 }
 
