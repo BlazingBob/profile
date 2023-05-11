@@ -18,7 +18,7 @@ h2, h3 {
     font-size: 20px;
 }
 
-.btn-blue {
+#btn-blue {
 	background-color: #93BFCF;
 	border: 2px solid #537188;
   border-radius: 10px;
